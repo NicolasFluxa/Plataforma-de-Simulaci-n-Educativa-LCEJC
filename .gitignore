@@ -1,0 +1,39 @@
+# Archivos de Sistema Operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs y directorios de caché de Laravel
+/backend/storage/logs
+/backend/storage/framework/sessions/*
+/backend/storage/framework/views/*
+/backend/storage/framework/cache/data/*
+/backend/bootstrap/cache/*.php
+
+# Dependencias (se instalan con Composer y NPM)
+/backend/vendor/
+/frontend/node_modules/
+/packages/*/node_modules/
+
+# Archivos de entorno. ¡NUNCA subir credenciales al repo!
+.env
+.env.backup
+/backend/.env
+/frontend/.env
+
+# Archivos de build del frontend
+/frontend/dist
+/frontend/.vite
+
+# Archivos de IDEs
+.idea/
+.vscode/
+*.swp
+
+# Archivos de test coverage
+/backend/coverage/
+
+# Archivos de NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
